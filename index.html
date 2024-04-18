@@ -18,19 +18,13 @@
             <main class="col post">
 
 
-                <div id="app" class="border border-secondary">
-
-
+                <div id="app" class="">
                     <Cover-Component></Cover-Component>
-
-                    <div v-show="!$route.path.startsWith('/card')">
-                        <Image-Component></Image-Component>
-                        <Products-Component></Products-Component>
-                    </div>
 
                     <router-view></router-view>
 
                 </div>
+
 
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-demi/0.13.11/index.iife.js"></script>
@@ -42,14 +36,18 @@
                     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
                     crossorigin="anonymous"></script>
                 <script type="module">
-                    import NavbarComponent from './pinia/homeworkComponent/navbarComponent.js'
+
                     import CardComponent from './pinia/homeworkComponent/cardComponent.js'
                     import ProductsComponent from './pinia/homeworkComponent/productsComponent.js'
                     import productStore from './pinia/store/productsStore.js'
 
                     import CoverComponent from './pinia/cartCover/coverComponent.js'
-                    import imageComponent from './pinia/cartCover/imageComponent.js'
 
+                    import blackteaComponent from './pinia/menu/blackteaComponent.js'
+                    import milkteaComponent from './pinia/menu/milkteaComponent.js'
+                    import teaComponent from './pinia/menu/teaComponent.js'
+                    import iceComponent from './pinia/menu/iceComponent.js'
+                    import otherComponent from './pinia/menu/otherComponent.js'
 
                     const { createApp } = Vue;
                     const { createPinia } = Pinia
@@ -61,29 +59,29 @@
                         history: VueRouter.createWebHashHistory(),
 
                         routes: [
+                            { path: '/', component: ProductsComponent },
                             { path: '/card', component: CardComponent },
-                            { path: '/home', component: CoverComponent }
-
+                            { path: '/blackTea', component: blackteaComponent },
+                            { path: '/milkTea', component: milkteaComponent },
+                            { path: '/tea', component: teaComponent },
+                            { path: '/ice', component: iceComponent },
+                            { path: '/other', component: otherComponent },
                         ]
                     });
 
-                    router.beforeEach((to, from, next) => {
-
-                        if (to.path === '/card') {
-                            next(true)
-                        } else {
-                            next()
-                        }
-                    })
 
 
                     const app = createApp({
                         components: {
-                            NavbarComponent,
                             CardComponent,
                             ProductsComponent,
                             CoverComponent,
-                            imageComponent
+                            blackteaComponent,
+                            milkteaComponent,
+                            teaComponent,
+                            iceComponent,
+                            otherComponent,
+                            hotdrinkComponent
                         }
                     });
 
@@ -103,12 +101,12 @@
                         height: 220px;
                     }
 
+
                     .table-image {
                         width: 75px;
                         height: 75px;
                         object-fit: cover;
                     }
-
 
 
                     .bd-placeholder-img {
