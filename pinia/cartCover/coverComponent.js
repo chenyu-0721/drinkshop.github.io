@@ -24,14 +24,16 @@ export default {
           <li class="nav-item">
           <a class="navbar-brand" href="#/ice">冰沙</a>
         </li>
+
           <li class="nav-item">
             <a class="navbar-brand" href="#/other">其他飲品</a>
           </li> 
         </ul>    
-      </div> <router-link to="/card" class="btn btn-dark" style="font-size:20px">
-      
+      </div> 
+      <router-link to="/card" class="btn btn-dark" style="font-size:20px">
       購物車
       <span class="badge rounded-pill bg-danger text-white">{{ card.length }}</span>
+      </router-link>
     </div>
   </nav>
   
