@@ -30,12 +30,12 @@ export default {
                 <a class="navbar-brand" href="#/other">其他飲品</a>
               </li>
             </ul>
-            <form class="d-flex">
+            
               <router-link to="/card" class="btn btn-dark" style="font-size:20px">
                 購物車
                 <span class="badge rounded-pill bg-danger text-white">{{ card.length }}</span>
               </router-link>
-            </form>
+         
         </div>
     </div>
   </nav>

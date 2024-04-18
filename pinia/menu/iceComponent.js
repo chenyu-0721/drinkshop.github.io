@@ -8,10 +8,10 @@ export default {
   },
 
   template: ` 
-    <div class="album py-5 bg-light">
+    <div class="album py-5 ">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4">
-                <div class="col" v-show="product.variety === '冰沙'" v-for="product in sortProducts" :key="product.id">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
+                <div class="col " v-show="product.variety === '冰沙'" v-for="product in sortProducts" :key="product.id">
                     <div class="card" >
                         <img 
                             :src="product.imageUrl"
