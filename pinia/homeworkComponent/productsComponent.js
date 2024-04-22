@@ -192,6 +192,47 @@ export default {
 </div>
 
 
+<div class="album py-5 bg-light">
+    <div class="container">
+        <h1 class="text-center pt-3 border-bottom">最新消息</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-4">
+            <div class="col">
+                <div class="card shadow-sm" style="height:470px;">
+                    <img class="cart-cover"
+                        src="https://plus.unsplash.com/premium_photo-1681826698463-7653724a5214?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="card-body">
+                        <h4 class="border-bottom">可可慕斯</h4>
+                        <p class="card-text">以多種水果綜合而成，口感豐富多彩，清新爽口，每一口都能品味到不同水果的風味，帶來滿滿的夏日清涼感，是夏日裡最迷人的解渴之選，讓人心情愉悅，回味無窮
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="height:470px;">
+                    <img class="cart-cover"
+                        src="https://images.unsplash.com/photo-1619158401201-8fa932695178?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="card-body">
+                        <h4 class="border-bottom">oreo冰沙</h4>
+                        <p class="card-text">濃郁的Oreo風味與冰涼的口感完美結合，每一口都散發出誘人的甜蜜香氣，帶來極致的口味享受，讓人陶醉其中</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow-sm" style="height:470px;">
+                <img class="cart-cover"
+                    src="https://images.unsplash.com/photo-1592318730259-6f18a6ba1c29?q=80&w=2014&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <div class="card-body">
+                    <h4 class="border-bottom">阿薩姆珍珠奶茶</h4>
+                    <p class="card-text">結合阿薩姆紅茶的濃郁香氣與爽口的珍珠，帶來獨特的口感體驗，香甜可口，令人愛不釋手</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 `,
