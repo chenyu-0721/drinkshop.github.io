@@ -15,6 +15,9 @@ export default {
         <div class="collapse navbar-collapse " id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item ">
+                <a class="navbar-brand" href="#/allmenu">全部菜單</a>
+              </li>
+              <li class="nav-item ">
                 <a class="navbar-brand" href="#/blacktea">紅茶</a>
               </li>
               <li class="nav-item">

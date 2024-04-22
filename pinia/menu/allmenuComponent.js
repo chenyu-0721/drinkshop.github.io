@@ -4,13 +4,13 @@ const { mapState, mapActions } = Pinia;
 
 export default {
   data() {
-    return { currentTime: "", clickTime: 0 };
+    return {};
   },
   template: `  
   <div class="album py-5 border-bottom">
   <div class="container ">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
-          <div class="col" v-show="product.variety === '綠茶'" v-for="product in sortProducts" :key="product.id">
+          <div class="col"  v-for="product in sortProducts" :key="product.id">
               <div class="card" >
                   <img 
                       :src="product.imageUrl"
@@ -29,9 +29,9 @@ export default {
 
 <!-- Toast 消息 -->
 <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 12">
-    <div id="liveToast" class="toast custom-toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">    
-            <strong class="me-auto">快樂飲料店</strong>       
+            <strong class="me-auto">快樂飲料店</strong>
             <button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"></button>
         </div>

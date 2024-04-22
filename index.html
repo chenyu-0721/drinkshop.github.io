@@ -23,8 +23,10 @@
 
                     <router-view></router-view>
 
-                </div>
+                    <Footer-Component></Footer-Component>
 
+
+                </div>
 
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-demi/0.13.11/index.iife.js"></script>
@@ -37,17 +39,22 @@
                     crossorigin="anonymous"></script>
                 <script type="module">
 
+
                     import CardComponent from './pinia/homeworkComponent/cardComponent.js'
                     import ProductsComponent from './pinia/homeworkComponent/productsComponent.js'
                     import productStore from './pinia/store/productsStore.js'
 
                     import CoverComponent from './pinia/cartCover/coverComponent.js'
 
+                    import allmenuComponent from './pinia/menu/allmenuComponent.js'
                     import blackteaComponent from './pinia/menu/blackteaComponent.js'
                     import milkteaComponent from './pinia/menu/milkteaComponent.js'
                     import teaComponent from './pinia/menu/teaComponent.js'
                     import iceComponent from './pinia/menu/iceComponent.js'
                     import otherComponent from './pinia/menu/otherComponent.js'
+
+                    import footerComponent from './pinia/footer/footerComponent.js'
+
 
                     const { createApp } = Vue;
                     const { createPinia } = Pinia
@@ -61,6 +68,7 @@
                         routes: [
                             { path: '/', component: ProductsComponent },
                             { path: '/card', component: CardComponent },
+                            { path: '/allmenu', component: allmenuComponent },
                             { path: '/blackTea', component: blackteaComponent },
                             { path: '/milkTea', component: milkteaComponent },
                             { path: '/tea', component: teaComponent },
@@ -76,13 +84,17 @@
                             CardComponent,
                             ProductsComponent,
                             CoverComponent,
+                            allmenuComponent,
                             blackteaComponent,
                             milkteaComponent,
                             teaComponent,
                             iceComponent,
                             otherComponent,
+                            footerComponent
                         }
                     });
+
+
 
 
 
@@ -100,12 +112,24 @@
                         height: 220px;
                     }
 
+                    .cart-cover {
+                        width: 100%;
+                        height: 280px;
+                        object-fit: cover;
+                    }
+
 
                     .table-image {
                         width: 75px;
                         height: 75px;
                         object-fit: cover;
                     }
+
+
+                    .carousel-button {
+                        color: black
+                    }
+
 
 
                     .bd-placeholder-img {
@@ -115,6 +139,7 @@
                         -moz-user-select: none;
                         user-select: none;
                     }
+
 
 
 

@@ -57,7 +57,7 @@ export default defineStore("productsStore", {
       },
       {
         id: 7,
-        title: "巧克力珍珠奶茶",
+        title: "巧克力奶茶",
         imageUrl:
           "https://images.unsplash.com/photo-1621221814631-e8bfdabd5ca4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
@@ -164,8 +164,8 @@ export default defineStore("productsStore", {
         title: "阿薩姆珍珠奶茶",
         imageUrl:
           "https://images.unsplash.com/photo-1592318730259-6f18a6ba1c29?q=80&w=2014&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        price: 100,
-        variety: "60",
+        price: 60,
+        variety: "奶茶",
       },
       {
         id: 21,
@@ -229,7 +229,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1563223771-5fe4038fbfc9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 70,
-        variety: "",
+        variety: "其他飲品",
       },
       {
         id: 29,
@@ -303,6 +303,22 @@ export default defineStore("productsStore", {
         price: 130,
         variety: "冰沙",
       },
+      {
+        id: 38,
+        title: "鳳梨冰茶",
+        imageUrl:
+          "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        price: 70,
+        variety: "其他飲品",
+      },
+      {
+        id: 39,
+        title: "木瓜牛奶",
+        imageUrl:
+          "https://plus.unsplash.com/premium_photo-1661715440356-ff1ca9ff72ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        price: 60,
+        variety: "其他飲品",
+      },
     ],
   }),
   getters: {
@@ -313,7 +329,8 @@ export default defineStore("productsStore", {
 });
 
 /**
-
+ * 
+ *
  {
         id: ,
         title: "",

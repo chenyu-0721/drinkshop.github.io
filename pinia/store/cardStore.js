@@ -8,7 +8,7 @@ export default defineStore("card", {
     card: [],
   }),
   actions: {
-    addToCard(productId, qty = 1) {
+    addToCard(producttitle, productId, qty = 1) {
       // 取得已經有加入購物車的項目
       // 進行判斷，如果購物車有該項目則 +1 如果沒有則是新增一個購物車項目
 
@@ -24,6 +24,16 @@ export default defineStore("card", {
           productId,
           qty,
         });
+      }
+      
+      
+      // 手动触发 toast 消息的显示
+      var toastTrigger = document.getElementById("liveToastBtn");
+      var toastLiveExample = document.getElementById("liveToast");
+      if (toastTrigger) {
+        var toast = new bootstrap.Toast(toastLiveExample);
+        toast.show();
+        console.log("成功觸發");
       }
 
       //   console.log(productId, qty);
