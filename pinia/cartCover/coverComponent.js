@@ -6,7 +6,7 @@ export default {
   template: ` 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container " >
-        <a class="navbar-brand" href="#">商品頁面</a>
+        <a class="navbar-brand" href="#">快樂飲料店</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
             aria-label="Toggle navigation">
