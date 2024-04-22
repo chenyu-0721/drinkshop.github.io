@@ -18,13 +18,7 @@ export default {
                 <a class="navbar-brand" href="#/allmenu">全部菜單</a>
               </li>
               <li class="nav-item ">
-                <a class="navbar-brand" href="#/blacktea">紅茶</a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="#/milkTea">奶茶</a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="#/tea">綠茶</a>
+                <a class="navbar-brand" href="#/tea">茶飲</a>
               </li>
               <li class="nav-item">
                 <a class="navbar-brand" href="#/ice">冰沙</a>

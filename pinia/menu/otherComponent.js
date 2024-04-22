@@ -11,7 +11,7 @@ export default {
   <div v-if="isLoaded" class="album py-5 border-bottom">
       <div class="container ">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
-              <div class="col" v-show="product.variety === '其他飲品'" v-for="product in sortProducts" :key="product.id">
+              <div class="col" v-show="product.variety === '特調'" v-for="product in sortProducts" :key="product.id">
                   <div class="card">
                       <img :src="product.imageUrl" class="card-img-top" alt="">
                       <div class="card-body">
@@ -31,7 +31,7 @@ export default {
   <div v-else class="album py-5 border-bottom">
       <div class="container ">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
-              <div class="col" v-show="product.variety === '其他飲品'" v-for="product in sortProducts" :key="product.id">
+              <div class="col" v-show="product.variety === '特調'" v-for="product in sortProducts" :key="product.id">
                   <div class="card" aria-hidden="true">
                   <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                       <div class="card-body ">

@@ -13,7 +13,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1546173159-315724a31696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGRyaW5rfGVufDB8fDB8fHww",
         price: 60,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 2,
@@ -21,15 +21,15 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 3,
-        title: "檸檬紅茶",
+        title: "檸檬茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1606444006818-3e66c09f2724?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJsYWNrJTIwdGVhfGVufDB8fDB8fHww",
         price: 50,
-        variety: "紅茶",
+        variety: "茶飲",
       },
       {
         id: 4,
@@ -41,11 +41,11 @@ export default defineStore("productsStore", {
       },
       {
         id: 5,
-        title: "珍珠奶茶",
+        title: "珍珠茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1620360289473-bfafadc16c57?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 6,
@@ -53,15 +53,15 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1594489556673-c816408242f5?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 70,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 7,
-        title: "巧克力奶茶",
+        title: "巧克力茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1621221814631-e8bfdabd5ca4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 8,
@@ -69,7 +69,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1592284441621-581ebd2e677d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1pbGslMjB0ZWF8ZW58MHx8MHx8fDA%3D",
         price: 50,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 9,
@@ -77,39 +77,39 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1577805947697-89e18249d767?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 100,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 10,
-        title: "肉桂奶茶",
+        title: "肉桂茶飲",
         imageUrl:
           "https://plus.unsplash.com/premium_photo-1663928246165-1ab1c85ea324?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 80,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 11,
-        title: "英式皇家奶茶",
+        title: "英式皇家茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1543721367-74f7de329e51?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 12,
-        title: "英式紅茶",
+        title: "英式茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1562547256-2c5ee93b60b7?q=80&w=1941&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 30,
-        variety: "紅茶",
+        variety: "茶飲",
       },
       {
         id: 13,
-        title: "本島綠茶",
+        title: "本島茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1606377695906-236fdfcef767?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 20,
-        variety: "綠茶",
+        variety: "茶飲",
       },
       {
         id: 14,
@@ -117,7 +117,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
-        variety: "綠茶",
+        variety: "茶飲",
       },
       {
         id: 15,
@@ -125,55 +125,55 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "綠茶",
+        variety: "茶飲",
       },
       {
         id: 16,
-        title: "烏龍綠茶",
+        title: "烏龍茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 30,
-        variety: "綠茶",
+        variety: "茶飲",
       },
       {
         id: 17,
-        title: "大吉嶺紅茶",
+        title: "大吉嶺茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1620342942051-ab6a9d92eda4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "紅茶",
+        variety: "茶飲",
       },
       {
         id: 18,
-        title: "祁門紅茶",
+        title: "祁門茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1572889439628-d9a9af986c31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
-        variety: "紅茶",
+        variety: "茶飲",
       },
       {
         id: 19,
-        title: "日月潭紅茶",
+        title: "日月潭茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1597318109735-d3612887d1ad?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 30,
-        variety: "紅茶",
+        variety: "茶飲",
       },
       {
         id: 20,
-        title: "阿薩姆珍珠奶茶",
+        title: "阿薩姆珍珠茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1592318730259-6f18a6ba1c29?q=80&w=2014&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 60,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 21,
-        title: "阿薩姆奶茶",
+        title: "阿薩姆茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1578335729120-279f54506af5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "奶茶",
+        variety: "茶飲",
       },
       {
         id: 22,
@@ -181,7 +181,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://plus.unsplash.com/premium_photo-1675949335489-f778abf84197?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 120,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 23,
@@ -189,7 +189,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1609951651556-5334e2706168?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 24,
@@ -197,7 +197,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1587888637140-849b25d80ef9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 25,
@@ -205,7 +205,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://plus.unsplash.com/premium_photo-1675667381451-be2fc08a122e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 30,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 26,
@@ -213,7 +213,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1560526860-1f0e56046c85?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 27,
@@ -221,7 +221,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1619158401201-8fa932695178?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 100,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 28,
@@ -229,7 +229,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1563223771-5fe4038fbfc9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 70,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 29,
@@ -237,7 +237,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1599566097412-69d00510d74a?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 100,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 30,
@@ -257,11 +257,11 @@ export default defineStore("productsStore", {
       },
       {
         id: 32,
-        title: "阿薩姆綠茶",
+        title: "阿薩姆茶飲",
         imageUrl:
           "https://images.unsplash.com/photo-1470162656305-6f429ba817bf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 35,
-        variety: "綠茶",
+        variety: "茶飲",
       },
       {
         id: 33,
@@ -309,7 +309,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 70,
-        variety: "其他飲品",
+        variety: "特調",
       },
       {
         id: 39,
@@ -317,7 +317,7 @@ export default defineStore("productsStore", {
         imageUrl:
           "https://plus.unsplash.com/premium_photo-1661715440356-ff1ca9ff72ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 60,
-        variety: "其他飲品",
+        variety: "特調",
       },
     ],
   }),
