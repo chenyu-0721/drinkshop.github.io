@@ -73,6 +73,93 @@ export default {
 
 
 
+
+
+<div class="album py-5 bg-light">
+  <div class="container">
+      <h1 class="text-center pt-3 ">最新消息</h1>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne">
+                      <strong>悅享美味，飲悅時光 ( 2024/04/23 ----- 2024/06/30 )</strong>
+                  </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" 
+                  aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                      <img class="cart-new" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                      
+                        <p class="pt-3"><strong>親愛的顧客，歡迎來到我們的飲料店，「飲悅時光」活動即將開啟！在這個特別的時刻，我們特別為您準備了一系列精彩的活動和美味的飲品，讓您在舒適的環境中盡情享受美好時光。
+                          <br><br>
+                          在「飲悅時光」活動中，我們將推出各種口味的飲品優惠，包括茶飲、冰沙、特調等，讓您可以盡情品嚐不同風味的美味。此外，我們還準備了豐富的禮品和驚喜抽獎活動，讓您有機會贏得精美禮品和折扣券，享受更多的優惠和驚喜。
+                          <br><br>
+                          除了美味飲品和豐富禮品外，我們還為您準備了舒適的用餐環境和親切的服務，讓您感受到家的溫暖和舒適。無論是和朋友聚會還是獨自一人，「飲悅時光」都是您放鬆身心、享受美味的最佳選擇。
+                          <br><br>
+                          快來我們的店鋪，加入我們的「飲悅時光」活動，一起享受美味飲品和愉悅時光吧！
+                        </strong></p>
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree">
+                      <strong>畢業季快樂飲 ( 2024/05/01 ----- 2024/08/30 ) </strong>
+                  </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                      <img class="cart-new"
+                          src="https://images.unsplash.com/photo-1627556704243-5f0771d90783?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">                
+                          <p class="pt-3"><strong>親愛的顧客們，為了慶祝這個特別的畢業季，我們特別推出了「畢業季快樂飲」活動！在這個重要的時刻，與親朋好友一起享受美味飲品，是無比愉悅的事情。我們精心準備了各種口味的奶茶、紅茶等飲品，讓您在品味的同時，感受到溫馨與幸福。
+                          <br><br>
+                          在活動期間，凡購買指定的奶茶、紅茶類飲品，即可獲得精美禮品一份，讓您的畢業季更加難忘！同時，我們也推出了限量特惠組合，讓您以優惠價格一次品味多款美味飲品，更多驚喜等您發現！
+                          <br><br>
+                          除了美味飲品外，我們還準備了精彩的畢業季活動，包括抽獎、拍照打卡等互動環節，讓您與親朋好友共同分享美好時光，留下珍貴的回憶。快來我們的店鋪，加入我們的「畢業季快樂飲」活動，一起共度難忘的畢業季吧！               
+                          </strong>
+                          </p>
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo">
+                      <strong>安心防詐網</strong>
+                  </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                      <img class="cart-new"
+                          src="https://www.police.ntpc.gov.tw/Public/Images/201604/0251604130939be33c.png">
+                          <p class="pt-3"><strong>親愛的網友，歡迎來到「安心防詐網」！在當今網路時代，詐騙活動層出不窮，給許多人帶來了困擾和損失。我們「安心防詐網」的成立旨在提供一個安全、可靠的平台，幫助大眾辨識和預防各類詐騙行為。
+                          <br><br>
+                          我們的網站提供了豐富的詐騙資訊和防範指南，涵蓋了網路詐騙、電話詐騙、郵件詐騙等各種形式。我們專業的團隊不斷搜集、整理最新的詐騙案例和騙術手段，並提供有效的防範建議和應對策略，讓您遠離詐騙陷阱，保障您的財產和個人資訊安全。
+                          <br><br>
+                          此外，我們設置了緊急聯繫通道，供大家報告可疑活動或嫌疑人，我們會及時跟進處理，保護您的權益。我們也鼓勵網友分享自己的詐騙經驗和教訓，相互學習、提高防範意識，共同打造一個更加安全的網絡環境。
+                          <br><br>
+                          讓我們攜手合作，共同抵禦詐騙風險，維護自身權益，營造一個更加安心的網絡世界！
+                      </strong></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <div class="album py-5 bg-light">
   <h1 class="text-center">熱門商品</h1>
   <div class="container">
@@ -202,85 +289,6 @@ export default {
   </div>
 </div>
 
-
-<div class="album py-5 bg-light">
-  <div class="container">
-      <h1 class="text-center pt-3 ">最新消息</h1>
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                      aria-controls="panelsStayOpen-collapseOne">
-                      <strong>悅享美味，飲悅時光 ( 2024/04/23 ----- 2024/06/30 )</strong>
-                  </button>
-              </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" 
-                  aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                      <img class="cart-new" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                      
-                        <p class="pt-3"><strong>親愛的顧客，歡迎來到我們的飲料店，「飲悅時光」活動即將開啟！在這個特別的時刻，我們特別為您準備了一系列精彩的活動和美味的飲品，讓您在舒適的環境中盡情享受美好時光。
-                          <br><br>
-                          在「飲悅時光」活動中，我們將推出各種口味的飲品優惠，包括茶飲、冰沙、特調等，讓您可以盡情品嚐不同風味的美味。此外，我們還準備了豐富的禮品和驚喜抽獎活動，讓您有機會贏得精美禮品和折扣券，享受更多的優惠和驚喜。
-                          <br><br>
-                          除了美味飲品和豐富禮品外，我們還為您準備了舒適的用餐環境和親切的服務，讓您感受到家的溫暖和舒適。無論是和朋友聚會還是獨自一人，「飲悅時光」都是您放鬆身心、享受美味的最佳選擇。
-                          <br><br>
-                          快來我們的店鋪，加入我們的「飲悅時光」活動，一起享受美味飲品和愉悅時光吧！
-                        </strong></p>
-                  </div>
-              </div>
-          </div>
-          <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseThree">
-                      <strong>畢業季快樂飲 ( 2024/05/01 ----- 2024/08/30 ) </strong>
-                  </button>
-              </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                      <img class="cart-new"
-                          src="https://images.unsplash.com/photo-1627556704243-5f0771d90783?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">                
-                          <p class="pt-3"><strong>親愛的顧客們，為了慶祝這個特別的畢業季，我們特別推出了「畢業季快樂飲」活動！在這個重要的時刻，與親朋好友一起享受美味飲品，是無比愉悅的事情。我們精心準備了各種口味的奶茶、紅茶等飲品，讓您在品味的同時，感受到溫馨與幸福。
-                          <br><br>
-                          在活動期間，凡購買指定的奶茶、紅茶類飲品，即可獲得精美禮品一份，讓您的畢業季更加難忘！同時，我們也推出了限量特惠組合，讓您以優惠價格一次品味多款美味飲品，更多驚喜等您發現！
-                          <br><br>
-                          除了美味飲品外，我們還準備了精彩的畢業季活動，包括抽獎、拍照打卡等互動環節，讓您與親朋好友共同分享美好時光，留下珍貴的回憶。快來我們的店鋪，加入我們的「畢業季快樂飲」活動，一起共度難忘的畢業季吧！               
-                          </strong>
-                          </p>
-                  </div>
-              </div>
-          </div>
-          <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseTwo">
-                      <strong>安心防詐網</strong>
-                  </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                      <img class="cart-new"
-                          src="https://www.police.ntpc.gov.tw/Public/Images/201604/0251604130939be33c.png">
-                          <p class="pt-3"><strong>親愛的網友，歡迎來到「安心防詐網」！在當今網路時代，詐騙活動層出不窮，給許多人帶來了困擾和損失。我們「安心防詐網」的成立旨在提供一個安全、可靠的平台，幫助大眾辨識和預防各類詐騙行為。
-                          <br><br>
-                          我們的網站提供了豐富的詐騙資訊和防範指南，涵蓋了網路詐騙、電話詐騙、郵件詐騙等各種形式。我們專業的團隊不斷搜集、整理最新的詐騙案例和騙術手段，並提供有效的防範建議和應對策略，讓您遠離詐騙陷阱，保障您的財產和個人資訊安全。
-                          <br><br>
-                          此外，我們設置了緊急聯繫通道，供大家報告可疑活動或嫌疑人，我們會及時跟進處理，保護您的權益。我們也鼓勵網友分享自己的詐騙經驗和教訓，相互學習、提高防範意識，共同打造一個更加安全的網絡環境。
-                          <br><br>
-                          讓我們攜手合作，共同抵禦詐騙風險，維護自身權益，營造一個更加安心的網絡世界！
-                      </strong></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 
 
