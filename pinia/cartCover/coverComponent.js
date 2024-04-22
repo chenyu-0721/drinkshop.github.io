@@ -24,7 +24,7 @@ export default {
                 <a class="navbar-brand" href="#/ice">冰沙</a>
               </li>
               <li class="nav-item">
-                <a class="navbar-brand" href="#/other">其他飲品</a>
+                <a class="navbar-brand" href="#/other">特調</a>
               </li>
             </ul>
             
