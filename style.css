@@ -48,13 +48,15 @@
 /* ----------------------------------------------------- */
 
 .drinkOne-text {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .drinkOne-image {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  margin-top: 40px;
-  margin-left: 30px;
+}
+
+.drinkOne-padding {
+  padding-top: 45px;
 }

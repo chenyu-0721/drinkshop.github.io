@@ -27,27 +27,25 @@ export default {
                       <td>
                           <img :src="item.product.imageUrl" class="table-image" alt="">
                       </td>
-                      <td>
-                        <select name="" id="" class="form-select"  >
-                                <option>無糖</option>
-                                <option>三分糖</option>
-                                <option>半糖</option>
-                                <option>七分糖</option>
-                                <option>全糖</option>
-                        </select> 
-                      </td>
-                      <td>
-                        <select name="" id="" class="form-select" >
-                                <option>正常冰</option>
-                                <option>少冰</option>
-                                <option>微冰</option>
-                                <option>常溫</option>
-                                <option>熱飲</option>
-                        </select> 
-                      </td>
-                      <td>                    
-                      </td>
                       <td>{{ item.product.title }}</td>
+                      <td>
+                      <select name="" id="" class="form-select"  >
+                              <option>無糖</option>
+                              <option>三分糖</option>
+                              <option>半糖</option>
+                              <option>七分糖</option>
+                              <option>全糖</option>
+                      </select> 
+                    </td>
+                    <td>
+                      <select name="" id="" class="form-select" >
+                              <option>正常冰</option>
+                              <option>少冰</option>
+                              <option>微冰</option>
+                              <option>常溫</option>
+                              <option>熱飲</option>
+                      </select> 
+                    </td>
                       <td>
                           <select name="" id="" class="form-select" :value="item.qty"
                               @change="(evt) => setCartQty(item.id,evt)">
