@@ -10,65 +10,17 @@ export default {
 
   template: `  
 
-  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-          aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
+<div class="carousel slide carousel-fade" >
+    <div class="carousel-inner">
       <div class="carousel-item active">
-          <img style="width:100%; height:600px; object-fit: cover; "
-              src="https://images.unsplash.com/photo-1602943543714-cf535b048440?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block text-end">
-              <h1><strong>茶葉</strong></h1>
-              <h5>一片片普通的葉子，卻蘊藏著無限的智慧和文化，如同生活中的困難和挑戰，需要細心品味才能領悟其深刻之處</h5>
-          </div>
-      </div>
-      <div class="carousel-item">
           <img style="width:100%; height:600px; object-fit: cover; "
               src="https://images.unsplash.com/photo-1516518691269-6d1e18187234?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block text-end">
-              <h1><strong>牛奶</strong></h1>
-              <h5>牛奶的香氣，彷彿來自樹蔭下清晨的氣息，細緻溫潤，如同自然的懷抱，散發著滿滿的溫馨與安詳，讓人沉醉其中，享受悠然的片刻</h5>
-          </div>
-      </div>
-      <div class="carousel-item">
-          <img style="width:100%; height:600px; object-fit: cover; "
-              src="https://images.unsplash.com/photo-1493925410384-84f842e616fb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block text-end">
-              <h1><strong>可可</strong></h1>
-              <h5>愉悅的味道，源自於可可的精華，蘊含著甜蜜與濃郁，每一口都是對幸福的享受，如同一場美妙的心靈之旅，讓人陶醉其中</h5>
-          </div>
-      </div>
-      <div class="carousel-item">
-          <img style="width:100%; height:600px; object-fit: cover; "
-              src="https://plus.unsplash.com/premium_photo-1674228288342-d72cf144e5de?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block text-end">
-              <h1><strong>蔬果</strong></h1>
-              <h5>色彩絢麗，口感清爽，大自然賜予的美味饋贈，每一種水果都有其獨特的風味與營養，豐富了人們的飲食選擇，讓生活充滿了色彩與活力</h5>
+              <h5><strong>選用新鮮牛乳、精選茶葉與水果，口感清爽，回味無窮。來店品味，享受健康與美味的絕妙組合</strong></h5>
           </div>
       </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
 
