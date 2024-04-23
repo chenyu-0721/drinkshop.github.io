@@ -13,7 +13,7 @@ export default {
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
               <div class="col" v-show="product.variety === '茶飲'" v-for="product in sortProducts" :key="product.id">
                   <div class="card"> 
-                    <a :href="'#' + product.id" @click="getDrinkValue(product)">
+                    <a :href="'#id=' + product.id" @click="getDrinkValue(product)">
                         <img :src="product.imageUrl" class="card-img-top"  alt="">
                     </a>
                         <div class="card-body">
