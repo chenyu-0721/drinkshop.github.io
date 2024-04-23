@@ -25,6 +25,19 @@ export default {
   </div>
 </div>
 
+<!-- Toast 消息 -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 12">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">    
+            <strong class="me-auto">快樂飲料店</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"
+                aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            產品已加入至購物車
+        </div>
+    </div>
+</div>
 
 `,
   computed: {
