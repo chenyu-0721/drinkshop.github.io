@@ -14,6 +14,8 @@ export default {
                       <td>取消商品</td>
                       <td>圖片</td>
                       <td>名稱</td>
+                      <td>甜度</td>
+                      <td>溫度</td>
                       <td>數量</td>
                       <td class="text-end">價格</td>
                   </tr>
@@ -24,6 +26,26 @@ export default {
                       </td>
                       <td>
                           <img :src="item.product.imageUrl" class="table-image" alt="">
+                      </td>
+                      <td>
+                        <select name="" id="" class="form-select"  >
+                                <option>無糖</option>
+                                <option>三分糖</option>
+                                <option>半糖</option>
+                                <option>七分糖</option>
+                                <option>全糖</option>
+                        </select> 
+                      </td>
+                      <td>
+                        <select name="" id="" class="form-select" >
+                                <option>正常冰</option>
+                                <option>少冰</option>
+                                <option>微冰</option>
+                                <option>常溫</option>
+                                <option>熱飲</option>
+                        </select> 
+                      </td>
+                      <td>                    
                       </td>
                       <td>{{ item.product.title }}</td>
                       <td>
