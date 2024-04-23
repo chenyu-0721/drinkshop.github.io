@@ -54,8 +54,8 @@ export default {
               src="https://plus.unsplash.com/premium_photo-1674228288342-d72cf144e5de?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block text-end">
-              <h1><strong>水果</strong></h1>
-              <h5>色彩絢麗，口感清爽，是大自然賜予的美味饋贈，每一種水果都有其獨特的風味與營養，豐富了人們的飲食選擇，讓生活充滿了色彩與活力</h5>
+              <h1><strong>蔬果</strong></h1>
+              <h5>色彩絢麗，口感清爽，大自然賜予的美味饋贈，每一種水果都有其獨特的風味與營養，豐富了人們的飲食選擇，讓生活充滿了色彩與活力</h5>
           </div>
       </div>
   </div>
@@ -77,7 +77,7 @@ export default {
 
 <div class="album py-5 bg-light">
   <div class="container">
-      <h1 class="text-center pt-3 ">最新消息</h1>
+      <h1 class="text-center pt-3 "><strong>最新消息</strong></h1>
       <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -161,7 +161,7 @@ export default {
 
 
 <div class="album py-5 bg-light">
-  <h1 class="text-center">熱門商品</h1>
+  <h1 class="text-center"><strong>熱門商品</strong></h1>
   <div class="container">
       <div id="carouselExampleIndicator" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
