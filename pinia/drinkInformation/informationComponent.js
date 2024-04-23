@@ -1,6 +1,5 @@
-import productsStore from "../store/productsStore.js";
 import cardStore from "../store/cardStore.js";
-const { mapState, mapActions } = Pinia;
+const { mapState } = Pinia;
 
 export default {
   data() {

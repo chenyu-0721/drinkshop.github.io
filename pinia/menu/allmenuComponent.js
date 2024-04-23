@@ -22,8 +22,7 @@ export default {
                             </h6>
                             <button type="button" class="btn btn-outline-primary w-100" id="liveToastBtn"
                                 @click.prevent="addToCard(product.id)">加入購物車</button>
-                        </div>
-                    
+                        </div>                
                   </div>
               </div>
           </div>
