@@ -15,11 +15,11 @@ export default {
               <h2 class="featurette-heading drinkOne-text"><strong>{{getDrink.title}}</strong><br>
 
               </h2>
-              <h6 class="lead">
+              <h6 class="lead pt-2" >
                   {{getDrink.infor}}
               </h6>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-5 order-md-1 ">
               <img class="drinkOne-image"
                   :src="getDrink.imageUrl">
 

@@ -7,27 +7,30 @@ export default {
     return {};
   },
   template: `  
-
-<div>
-  <div class="album py-5 border-bottom">
+  <div>
+  <div  class="album py-5 border-bottom">
       <div class="container ">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-4 ">
-              <div class="col" v-for="product in sortProducts" :key="product.id">
-                  <div class="card">
-                      <img :src="product.imageUrl" class="card-img-top" alt="">
-                      <div class="card-body">
-                          <h6 class="card-title">{{ product.title }}
-                              <span class="float-end">$ {{ product.price }}</span>
-                          </h6>
-                          <button type="button" class="btn btn-outline-primary w-100" id="liveToastBtn"
-                              @click.prevent="addToCard(product.title,product.id) ">加入購物車</button>
-                      </div>
+              <div class="col"  v-for="product in sortProducts" :key="product.id">
+                  <div class="card"> 
+                    <a :href="'#' + product.id" @click="getDrinkValue(product)">
+                        <img :src="product.imageUrl" class="card-img-top"  alt="">
+                    </a>
+                        <div class="card-body">
+                            <h6 class="card-title">{{ product.title }}
+                                <span class="float-end">$ {{ product.price }}</span>
+                            </h6>
+                            <button type="button" class="btn btn-outline-primary w-100" id="liveToastBtn"
+                                @click.prevent="addToCard(product.id)">加入購物車</button>
+                        </div>
+                    
                   </div>
               </div>
           </div>
       </div>
   </div>
 </div>
+
 
 
 
@@ -44,15 +47,11 @@ export default {
         </div>
     </div>
 </div>
-
-
-
-
 `,
   computed: {
     ...mapState(productsStore, ["sortProducts"]),
   },
   methods: {
-    ...mapActions(cardStore, ["addToCard"]),
+    ...mapActions(cardStore, ["addToCard", "getDrinkValue"]),
   },
 };
