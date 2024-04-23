@@ -24,7 +24,8 @@ export default defineStore("productsStore", {
           "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
         variety: "特調",
-        infor: "",
+        infor:
+          "清爽的氣泡感，帶有檸檬的酸爽和香氣。這種飲品不僅解渴，還能提供一種清新的感覺，特別適合在炎熱的夏天享用。",
       },
       {
         id: 3,
@@ -33,7 +34,8 @@ export default defineStore("productsStore", {
           "https://images.unsplash.com/photo-1606444006818-3e66c09f2724?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJsYWNrJTIwdGVhfGVufDB8fDB8fHww",
         price: 50,
         variety: "茶飲",
-        infor: "",
+        infor:
+          "清爽的茶香，帶有微微的檸檬酸甜，並伴隨著茶葉的清淡和檸檬的香氣。有助於解渴，並帶來一種清新的感覺，特別適合在炎熱的夏天享用。",
       },
       {
         id: 4,
@@ -42,16 +44,18 @@ export default defineStore("productsStore", {
           "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWlsayUyMHRlYXxlbnwwfHwwfHx8MA%3D%3D",
         price: 140,
         variety: "冰沙",
-        infor: "",
+        infor:
+          "結合了Oreo餅乾的香甜和可可的濃郁。這款飲品通常是將巧克力冰沙或巧克力冰沙混合物與Oreo餅乾碎片和牛奶混合而成。",
       },
       {
         id: 5,
-        title: "珍珠茶飲",
+        title: "珍珠奶茶",
         imageUrl:
           "https://images.unsplash.com/photo-1620360289473-bfafadc16c57?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 40,
         variety: "茶飲",
-        infor: "",
+        infor:
+          "口感濃郁的茶香與奶香的結合，再加上珍珠的QQ彈牙口感，形成了一種獨特而愉悅的口感體驗。茶的醇厚、牛奶的柔順和珍珠的嚼勁相互融合，為人們帶來了一份美味和享受。",
       },
       {
         id: 6,
@@ -60,16 +64,18 @@ export default defineStore("productsStore", {
           "https://images.unsplash.com/photo-1594489556673-c816408242f5?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 70,
         variety: "特調",
-        infor: "",
+        infor:
+          "口感濃郁而豐富，具有濃縮咖啡的濃郁香氣，以及牛奶的柔順和奶香。奶泡的加入使得飲品更加豐富和奢華，並為整個口感增添了一層絲滑的觸感。",
       },
       {
         id: 7,
-        title: "巧克力茶飲",
+        title: "巧克力奶茶",
         imageUrl:
           "https://images.unsplash.com/photo-1621221814631-e8bfdabd5ca4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 50,
         variety: "茶飲",
-        infor: "",
+        infor:
+          "具有濃郁的巧克力香氣，並且帶有微甜的味道，同時也有牛奶的香濃和滑順。茶與巧克力的完美結合，創造了一種令人愉悅的口感，讓人在每一口中都感受到濃郁的巧克力風味和牛奶的柔順。",
       },
       {
         id: 8,
@@ -78,7 +84,8 @@ export default defineStore("productsStore", {
           "https://images.unsplash.com/photo-1592284441621-581ebd2e677d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1pbGslMjB0ZWF8ZW58MHx8MHx8fDA%3D",
         price: 50,
         variety: "特調",
-        infor: "",
+        infor:
+          "具有濃郁的抹茶香氣，並且帶有微微的苦澀，但同時也有牛奶的香醇和奶香。茶與奶的完美結合，創造了一種滑順、豐富且令人愉悅的口感。飲用時，您可以感受到抹茶的清新和牛奶的柔順，以及奶泡的輕盈口感，給人一種極致的享受。",
       },
       {
         id: 9,
