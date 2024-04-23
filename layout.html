@@ -23,17 +23,13 @@
                 <div id="app" class="">
                     <Cover-Component></Cover-Component>
 
-                    <router-view></router-view>
+
 
                     <Footer-Component></Footer-Component>
-
-
-
-
                 </div>
 
 
-                <script src=" https://cdnjs.cloudflare.com/ajax/libs/vue-demi/0.13.11/index.iife.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-demi/0.13.11/index.iife.js"></script>
                 <script>const I = VueDemi; const vueDemi = VueDemi;</script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/pinia/2.0.22/pinia.iife.js"></script>
                 <script src="https://unpkg.com/vue-router@4.0.5/dist/vue-router.global.js"></script>
@@ -44,63 +40,55 @@
                 <script type="module">
 
 
-                    import productsStore from "./pinia/store/productsStore.js";
-
                     import CardComponent from './pinia/homeworkComponent/cardComponent.js'
                     import ProductsComponent from './pinia/homeworkComponent/productsComponent.js'
                     import productStore from './pinia/store/productsStore.js'
 
                     import CoverComponent from './pinia/cartCover/coverComponent.js'
 
-                    import AllmenuComponent from './pinia/menu/allmenuComponent.js'
-                    import TeaComponent from './pinia/menu/teaComponent.js'
-                    import IceComponent from './pinia/menu/iceComponent.js'
-                    import OtherComponent from './pinia/menu/otherComponent.js'
+                    import allmenuComponent from './pinia/menu/allmenuComponent.js'
+                    import teaComponent from './pinia/menu/teaComponent.js'
+                    import iceComponent from './pinia/menu/iceComponent.js'
+                    import otherComponent from './pinia/menu/otherComponent.js'
 
                     import footerComponent from './pinia/footer/footerComponent.js'
 
-                    import InformationComponent from './pinia/drinkInformation/informationComponent.js'
 
                     const { createApp } = Vue;
                     const { createPinia } = Pinia
 
 
 
-
-                    const routes = [
-                        { path: '/', component: ProductsComponent },
-                        { path: '/card', component: CardComponent },
-                        { path: '/allmenu', component: AllmenuComponent },
-                        { path: '/tea', component: TeaComponent },
-                        { path: '/ice', component: IceComponent },
-                        { path: '/other', component: OtherComponent }
-                    ];
-
-
-
-                    for (let i = 1; i <= 40; i++) {
-                        routes.push({ path: `/${i}`, component: InformationComponent });
-                    }
-
                     const router = VueRouter.createRouter({
+
                         history: VueRouter.createWebHashHistory(),
-                        routes: routes
+
+                        routes: [
+                            { path: '/', component: ProductsComponent },
+                            { path: '/card', component: CardComponent },
+                            { path: '/allmenu', component: allmenuComponent },
+                            { path: '/tea', component: teaComponent },
+                            { path: '/ice', component: iceComponent },
+                            { path: '/other', component: otherComponent },
+                        ]
                     });
+
+
 
                     const app = createApp({
                         components: {
                             CardComponent,
                             ProductsComponent,
                             CoverComponent,
-                            AllmenuComponent,
-                            TeaComponent,
-                            IceComponent,
-                            OtherComponent,
-                            footerComponent,
-                            InformationComponent
-                        },
-
+                            allmenuComponent,
+                            teaComponent,
+                            iceComponent,
+                            otherComponent,
+                            footerComponent
+                        }
                     });
+
+
 
 
 

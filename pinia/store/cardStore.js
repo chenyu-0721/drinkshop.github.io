@@ -6,11 +6,13 @@ export default defineStore("card", {
   // actions
   state: () => ({
     card: [],
+    drink: [],
   }),
   actions: {
-    addToCard(producttitle, productId, qty = 1) {
+    addToCard(productId, qty = 1) {
       // 取得已經有加入購物車的項目
       // 進行判斷，如果購物車有該項目則 +1 如果沒有則是新增一個購物車項目
+      console.log(productId);
 
       const currentCard = this.card.find(
         (item) => item.productId === productId
@@ -25,8 +27,7 @@ export default defineStore("card", {
           qty,
         });
       }
-      
-      
+
       // 手动触发 toast 消息的显示
       var toastTrigger = document.getElementById("liveToastBtn");
       var toastLiveExample = document.getElementById("liveToast");
@@ -36,7 +37,6 @@ export default defineStore("card", {
         console.log("成功觸發");
       }
 
-      //   console.log(productId, qty);
       //   console.log(this.card);
     },
     setCartQty(id, event) {
@@ -49,6 +49,10 @@ export default defineStore("card", {
     removeCardItem(id) {
       const index = this.card.findIndex((item) => item.id === id);
       this.card.splice(index, 1);
+    },
+
+    getDrinkValue(a) {
+      this.drink = a;
     },
   },
   getters: {
@@ -63,7 +67,7 @@ export default defineStore("card", {
 
       const cards = card.map((item) => {
         // 1. 購物車品項資訊，整合產品資訊
-        // console.log("item", item);
+        console.log("item", item);
         //  單一產品取出
         const product = products.find(
           (product) => product.id === item.productId
@@ -80,6 +84,11 @@ export default defineStore("card", {
         cards, // 列表
         total: total,
       };
+    },
+    getDrink: ({ drink }) => {
+      const a = drink;
+
+      return a;
     },
   },
 });
