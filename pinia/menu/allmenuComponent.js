@@ -7,6 +7,9 @@ export default {
     return {};
   },
   template: `  
+
+
+  
   <div>
   <div  class="album py-5 border-bottom">
       <div class="container ">

@@ -13,7 +13,7 @@ export default {
           <div class="col-md-5 order-md-2 drinkOne-text d-flex flex-column justify-content-between">
             <h2 class="featurette-heading"><strong>{{getDrink.title}}</strong><br></h2>
             <h6 class="lead">{{getDrink.infor}}</h6>
-            <button type="button" class="btn btn-outline-primary  mt-auto " style="width:400px;" id="liveToastBtn"
+            <button type="button" class="btn btn-outline-primary  mt-auto "  id="liveToastBtn"
                     @click.prevent="addToCard(getDrink.id)">加入購物車</button>
           </div>
           <div class="col-md-5 order-md-1 ">
