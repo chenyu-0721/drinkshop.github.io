@@ -18,6 +18,8 @@ export default defineStore("card", {
         (item) => item.productId === productId
       );
 
+      
+
       if (currentCard) {
         currentCard.qty += qty;
       } else {
