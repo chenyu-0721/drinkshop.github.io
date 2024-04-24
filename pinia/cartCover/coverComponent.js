@@ -8,8 +8,9 @@ export default {
     <div class="container" >
         <a class="navbar-brand" href="#"><strong><span style="font-size:26px">快樂飲料店</span> </strong></a>
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
         <div class="collapse navbar-collapse " id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item ">
