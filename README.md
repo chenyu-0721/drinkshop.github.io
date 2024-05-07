@@ -19,3 +19,14 @@
 # 購物車--有商品時
   - 可自行調整冰塊、甜度、杯數
   - 可檢視目前購物車的金額
+
+# 專業技術
+  - HTML
+  - CSS
+  - JavaScript
+  - Bootstrap 5.1.1
+  - Vue 3.2.37
+  - pinia 2.0.22
+  - Vue-router 4.0.5
+  - RWD響應式設計
+    
