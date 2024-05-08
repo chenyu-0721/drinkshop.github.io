@@ -1,3 +1,6 @@
+# Demo
+https://chenyu-0721.github.io/drinkshop.github.io/#/
+
 # 畫面
 ![image](https://github.com/chenyu-0721/drinkshop.github.io/assets/59197038/2d9c6aa6-6280-4c53-aecf-936c0e98c474)
 
