@@ -2,7 +2,7 @@
  - Github Page：https://chenyu-0721.github.io/drinkshop.github.io/#/
 
 # 動畫Demo
-![drink](https://github.com/chenyu-0721/drinkshop.github.io/assets/59197038/ceb8c7ef-78fe-430c-bead-3d275616d2a0)
+https://s31.aconvert.com/convert/p3r68-cdx67/uygtb-2j4ih.gif
 
 
 ## 前台首頁
