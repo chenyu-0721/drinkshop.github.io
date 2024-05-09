@@ -1,9 +1,11 @@
 # 網頁Demo
  - Github Page：https://chenyu-0721.github.io/drinkshop.github.io/#/
 
-# 動畫Demo
-https://github.com/chenyu-0721/drinkshop.github.io/assets/59197038/d19decf9-0d40-4009-862c-91a64b7f2859
-
+## 專業技術：
+![html](https://github.com/chenyu-0721/monster.github.io/assets/59197038/e8a5f4c7-4419-4697-8838-87f6666a9af6)
+![css](https://github.com/chenyu-0721/monster.github.io/assets/59197038/8903a514-6d7f-428d-897d-fa229dc34627)
+![js](https://github.com/chenyu-0721/monster.github.io/assets/59197038/39419656-8228-4425-a14f-d5b905761dba)
+![vue](https://github.com/chenyu-0721/monster.github.io/assets/59197038/58c05753-168c-4ec1-a4cf-09f47455f91c)
 
 
 
@@ -34,4 +36,13 @@ https://github.com/chenyu-0721/drinkshop.github.io/assets/59197038/d19decf9-0d40
   - pinia 2.0.22
   - Vue-router 4.0.5
   - RWD響應式設計
+
+  - ## 關於作者
+- 暱稱：點點
+- 狀態：前端開發一年學習者
+- 專業：前端開發、RWD
+- 信箱：chen630602@gmail.com
+
+## 聲明
+- 本作品的圖片內容，非營利使用，純粹為前端專題練習
     
